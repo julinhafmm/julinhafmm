@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char *argv[]) {
+	
+	int valor1, resultado = 0;
+	int i = 0;
+	int cont = 1;
+	
+	do{
+		printf("Digite um valor de 1 a 10");
+		scanf("%i", &valor1);
+				
+			if(valor1 >= 1 && valor1 <= 10){
+			for(i = 1; i <= 10; i = i + 1){
+			resultado = i * valor1;
+			printf("%i x %i = %i \n", i, valor1, resultado);
+		
+	}
+	
+	}	else{
+				printf("Seu valor nao e permitido, somente 1 e 10");
+		}
+		printf("Quer continuar? \n");
+		printf("1 - Sim	\n");
+		printf("2 - Não \n");
+		scanf("%i", cont);
+	} while (cont ==  1 );
+	
+
+	system("pause");
+	
+	return 0;
+}
