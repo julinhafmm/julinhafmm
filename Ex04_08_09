@@ -1,0 +1,11 @@
+{
+   int soma = 0 ;
+   
+   for (int i = 1; i <= 500; i++){
+       soma = soma + (i % 2 ==0); 
+   }
+  
+   printf("O seu resultado é %i", soma);
+ 
+    return 0;
+}
