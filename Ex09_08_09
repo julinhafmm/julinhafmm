@@ -1,0 +1,16 @@
+
+int main()
+{
+   int valor1, resultado;
+   
+   printf("Digite um valor \n");
+   scanf("%d", &valor1);
+   
+   resultado = 1;
+   
+   for (int i = 1; i <= valor1; i++){
+    resultado = resultado * i;
+}
+    printf("O valor fatorial é %d", resultado);
+    return 0;
+}
