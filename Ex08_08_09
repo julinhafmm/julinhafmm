@@ -1,0 +1,17 @@
+ int base, resultado, e; 
+    
+    printf("Digite o valor da base \n");
+    scanf("%d", &base);
+    
+    printf("Digite o valor do expoente \n");
+    scanf("%d", &e);
+    
+    resultado = 1;
+    
+    for (int i= 1; i <= e; i++){
+        
+           resultado = resultado * base;
+           
+        }
+        printf("O resultado é %d", resultado);
+        
