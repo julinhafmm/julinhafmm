@@ -1,0 +1,8 @@
+int v1, resultado;
+    
+    for(int i =1; i <=5; i++){
+        printf("Digite um número. \n");
+        scanf("%d", &v1);
+    }
+    for (v1 = 1; v1 <= v1; v1++);
+\\ estou tentando fazer a parte do fatorial
