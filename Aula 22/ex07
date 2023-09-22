@@ -1,0 +1,19 @@
+int i =1, vlimite =0;
+	int acumulador = 0;
+	int contador = 0;
+	
+	printf("Digite um valor grande. \n");
+	scanf("%d", &vlimite);
+	
+	for (i = 1; i <= vlimite; i = i + 1) {
+		if ((i % 2) ==1) {
+				acumulador = acumulador + i;
+				contador = contador + 1;
+		}
+	
+	printf(" o valor da varieavel i é : %i \n", i);	
+	}
+	
+	printf("A soma dos valores impares é %i \n", acumulador);
+		printf("o numero de valores impares é %i \n", contador);
+	
