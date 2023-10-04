@@ -1,0 +1,19 @@
+{
+    int n = 15;
+    int primeiro = 1, segundo = 1, proximo;
+    
+     printf("%d, %d, ", primeiro, segundo);    
+       
+       for (int i = 3; i <= n; i++) {
+        proximo = primeiro + segundo;
+        printf("%d", proximo);
+        
+         if (i < n) {
+            printf(", ");
+        } else {
+            printf("\n");
+        }
+        
+        primeiro = segundo;
+        segundo = proximo;
+    }
