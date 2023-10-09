@@ -1,0 +1,16 @@
+   int termo1 = 1, termo2 = 1, proximoTermo;
+
+    printf("Série Fibonacci até o décimo quinto termo:\n");
+
+    printf("%d, %d, ", termo1, termo2);
+
+    for (int i = 3; i <= 15; i++) {
+        proximoTermo = termo1 + termo2;
+        printf("%d, ", proximoTermo);
+
+        termo1 = termo2;
+        termo2 = proximoTermo;
+    }
+
+    printf("\n");
+
