@@ -1,0 +1,17 @@
+int total_graos = 0;
+    int graos = 1;
+
+    printf("Tabuleiro de Xadrez - Número de Grãos de Trigo\n");
+
+    for (int i = 1; i <= 64; i++) {
+        total_graos += graos;
+        graos *= 2;
+
+
+        if (graos < 0) {
+            printf("Estouro de inteiros ocorreu no quadrado %d.\n", i);
+            return 1;
+        }
+    }
+
+    printf("Total de grãos de trigo em um tabuleiro de xadrez 8x8: %d\n", total_graos);
