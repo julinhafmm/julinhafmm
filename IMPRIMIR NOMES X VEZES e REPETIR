@@ -1,0 +1,22 @@
+int repeticoes;
+    char nome[100];
+    int contador;
+    int continuar;
+    
+    do{
+        printf("Digite seu nome. \n");
+        scanf("%s", nome);
+        
+        printf("Digite quantas repeticoes deseja. \n");
+        scanf("%d", & repeticoes);
+        
+        contador = 1;
+        
+        while (contador <= repeticoes) {
+            printf("%d - %s\n", contador, nome);
+            contador++;
+        }
+        printf("deseja continuar o processamento? (0 = nao ; 1 = sim):");
+        scanf("%d", &continuar);
+        
+    }while (continuar == 1);
