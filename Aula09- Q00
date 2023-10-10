@@ -1,0 +1,64 @@
+int opcao;
+    
+    printf(">>MENU<<        \n");
+    printf("Escolha sua opcao.      \n");
+    printf("1 - SOMAR.\n");
+    printf("2 - SUBTRAIR.\n");
+    printf("3 - DIVIDIR.\n");
+    printf("4 - MULTIPLICAR.\n");
+    printf("9 - SAIR. \n");
+    scanf("%i", &opcao);
+    
+        if (opcao == 1){
+            int numeroa, numerob, result;
+            printf("Digite o numero para somar.\n");
+            scanf("%i", &numeroa);
+            
+            printf("Digite o segundo numero para somar \n");
+            scanf("%i", &numerob);
+            
+            result = numeroa + numerob;
+            
+            printf("O valor dos numeros somados é: %i", result);
+            
+        }else if  (opcao == 2){
+            int numeroa, numerob, result;
+            printf("Digite o numero para subtrair.\n");
+            scanf("%i", &numeroa);
+            
+            printf("Digite o segundo numero para subtrair \n");
+            scanf("%i", &numerob);
+            
+            result = numeroa - numerob;
+            
+            printf("O valor dos numeros subtraidos é: %i", result);
+            
+        }else if (opcao == 3){
+            int numeroa, numerob, result;
+            printf("Digite o numero para dividir.\n");
+            scanf("%i", &numeroa);
+            
+            printf("Digite o segundo numero para dividir \n");
+            scanf("%i", &numerob);
+            
+            if (numerob != 0){
+                result = numeroa / numerob;
+                printf("O valor dos numeros divididos é: %i \n", result);
+            } else {
+                printf("Nao e possivel dividir por 0");
+            }
+        }else if (opcao == 4){
+            int numeroa , numerob, result;
+    
+            printf("Digite o numero para multiplicar.\n");
+            scanf("%i", &numeroa);
+            
+            printf("Digite o segundo numero para multiplicar \n");
+            scanf("%i", &numerob);
+            
+            result = numeroa * numerob;
+            
+            printf("O valor dos numeros multiplicado é: %i", result);
+        } else {
+            printf("Voce decidiu sair");
+        }
