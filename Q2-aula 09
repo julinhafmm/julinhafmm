@@ -1,0 +1,15 @@
+
+    int n, p = 0;
+    
+    
+    printf("Digite um numero para ser o limite.\n");
+    scanf("%i", &n);
+    
+    printf("Digite um valor numerico.\n");
+    scanf("%i", &p);
+    
+   for(int i = 1; i <=n; i++){
+       if (i % p == 0){
+           printf("%i, ", i);
+       }
+   }
