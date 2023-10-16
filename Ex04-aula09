@@ -1,0 +1,28 @@
+ int a, b, c;
+    int cont=0, cont1=0, cont2=0;
+    
+    printf("Digite o primeiro numero \n");
+    scanf("%i", &a);
+    printf("Digite o segundo numero numero \n");
+    scanf("%i", &b);
+    printf("Digite o terceiro numero \n");
+    scanf("%i", &c);
+
+    for(int i = 1; i <=a; i++){
+    cont = cont + 1;
+    printf("Seu resultado: %i \n", cont);
+    }
+   
+    printf("\n");
+    
+    for(int i = 1; i <=b; i++){
+    cont1 = cont1 + 1;
+    printf("Seu resultado: %i \n", cont1);
+    }
+    
+    printf("\n");
+     
+    for(int i = 1; i <=c; i++){
+    cont2 = cont2 + 1;
+    printf("Seu resultado: %i \n", cont2);
+    }
