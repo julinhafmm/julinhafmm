@@ -2,13 +2,12 @@
   <tr>
     <td valign="top" width="50%">
       
-- 👋 Hi, I’m @julinhafmm  
-- 👀 I’m interested in ...  
-- 🌱 I’m currently learning ...  
-- 💞️ I’m looking to collaborate on ...  
-- 📫 How to reach me ...  
-- 😄 Pronouns: ...  
-- ⚡ Fun fact: ...  
+- 👋 Olá! Eu sou a @julinhafmm  
+- 👀 Estou interessada na área de programação 
+- 🌱 Estou aprendendo mais sobre css e javascript 
+- 💞️ Estou começando a trabalhar em alguns projetos para o meu portfólio  
+- 📫 Para entrar em contato linkedin: www.linkedin.com/in/julia-fernanda-7a015b286 
+- 😄 Pronomes: Ela/Dela  
 
     </td>
     <td valign="top" width="50%">
