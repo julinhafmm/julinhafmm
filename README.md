@@ -11,7 +11,6 @@
 
     </td>
     <td valign="top" width="50%">
-      Alguns testes para deixar o perfil mais apresentavel
 
 ![julinhafmm's Streak](https://github-readme-streak-stats.herokuapp.com/?user=julinhafmm&theme=blueberry&hide_border=false)
 
