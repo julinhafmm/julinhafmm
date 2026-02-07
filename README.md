@@ -4,7 +4,7 @@
       
 - 👋 Olá! Eu sou a @julinhafmm  
 - 👀 Estou interessada na área de programação 
-- 🌱 Estou aprendendo mais sobre css e javascript 
+- 🌱 Estou aprendendo mais sobre Python e frontend 
 - 💞️ Estou começando a trabalhar em alguns projetos para o meu portfólio  
 - 📫 Para entrar em contato linkedin: www.linkedin.com/in/julia-fernanda-7a015b286 
 - 😄 Pronomes: Ela/Dela  
